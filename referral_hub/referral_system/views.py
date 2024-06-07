@@ -60,4 +60,3 @@ class ReferralCodeListView(generics.ListAPIView):
 
     def get_queryset(self):
         return ReferralCode.objects.filter(user=self.request.user)
-
