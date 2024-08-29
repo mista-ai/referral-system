@@ -1,3 +1,20 @@
+# RESTful API Service for Referral System
+
+This project is a simple RESTful API service built with Django Rest Framework (DRF) that includes user registration, authentication, and referral code management. JWT authentication is used to secure the API endpoints.
+
+## Features
+
+- **User Registration and Authentication:**
+  - Register users with email and password.
+  - Authenticate users using JWT (JSON Web Token) authentication.
+
+- **Referral Code Management:**
+  - **Create Referral Codes:** Users can generate new referral codes.
+  - **Delete Referral Codes:** Users can delete their referral codes.
+  - **Activate Referral Codes:** Referral codes can be activated or deactivated.
+  - **Register with Referral Code:** New users can register using a referral code.
+
+
 # Referral System API
 
 ## Описание
